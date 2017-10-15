@@ -72,6 +72,7 @@ a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
 	background: url(../image/image_1.jpg) center center no-repeat;
 	background-size: cover;
 	height: 600px;
+
 }
 .photo h1{
 	color: yellow;
@@ -82,9 +83,16 @@ a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
 }*/
 /*start of portfolio*/
 
-#port{
+.folder{
+	/*background-color: #e6e6e6;*/
+	padding:5% 0 5% 0;
+	/*background-color: pink;*/
+}
+#document,#slick{
 	background-color: #e6e6e6;
-	padding:0 0 5% 0;
+}
+#port{
+	background-color:rgba(229, 99, 71, 0.8 )  ;
 }
 .portfolio,.certify{
 	margin-top:3.5%;
@@ -118,7 +126,7 @@ a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
 }
 .section-heading h1{
 	text-transform: uppercase;
-	margin: 1% 0 1% 0;
+	margin: 0 0 1% 0;
 }
 ul.text li{
 	list-style: none;
@@ -152,7 +160,7 @@ ul {
 }
 /*footer */
 #end{
-	background-color: grey!important;
+	background-color: rgba(203, 91, 66,0.8);
 	
 	height: 300px;
 }
