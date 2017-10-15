@@ -1,0 +1,290 @@
+*{
+	box-sizing: border-box;
+	text-align: center;
+}
+body,html{
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+	font-family: "helvatica";
+
+}
+/*header*/
+.navbar{
+	background-color: #4d4d4d!important;
+
+	/*padding-bottom: 40px;*/
+}
+a.col{
+	color: white!important;
+}
+a.col:hover{
+	text-decoration: underline;
+	color: blue;
+	background-color: orange;
+}
+a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
+	
+	color: red/*!important*/;
+	background-color: green/*!important*/;
+}
+/* jumbtron*/
+.picture{
+	
+	background:url(../image/img_1.jpg) center center no-repeat;
+	background-size: cover;
+	height: 600px;
+	position: relative;
+}
+.overlay{
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+}
+.jumbotron{
+	position: relative;
+}
+.element{
+	position: absolute;
+	top:50%;
+}
+#scroll_1{
+	position: absolute;
+	top:70%;
+	left:50%;
+}
+/*who am I*/
+.btn:hover{
+	text-decoration: underline;
+	color: blue;
+	background-color: orange;
+}
+.photo{
+	background: url(../image/image_1.jpg) center center no-repeat;
+	background-size: cover;
+	height: 600px;
+}
+.photo h1{
+	color: yellow;
+}
+
+/*.aboutMe ul li a:visited{
+	color:maroon;
+}*/
+/*start of portfolio*/
+
+#port{
+	background-color: #e6e6e6;
+	padding:0 0 5% 0;
+}
+.portfolio,.certify{
+	margin-top:3.5%;
+	}
+.certify{
+	border:2px solid blue;
+	border-radius: 5px;
+	padding-top: 2%;
+	
+	margin: 0 auto;
+}
+.cer-content img{
+  opacity: 0.9;
+  /*width: 100%;*/
+  transition: .5s transform,
+              .5s opacity;
+}
+
+.cer-content img:hover{
+  opacity: 1;
+  transform: scale(0.99);
+}
+
+.portfolio h1{
+	padding-top: 200px;
+}
+.thumbnail.pic{
+	width: 400px;
+	height: auto;
+	position: relative;
+}
+.section-heading h1{
+	text-transform: uppercase;
+	margin: 1% 0 1% 0;
+}
+ul.text li{
+	list-style: none;
+}
+h5{
+	margin-top: 1%;
+	color:maroon!important;
+	font-size: 2rem!important;
+}
+.text i.fa{
+	color: white;
+}
+
+
+/*end of portfolio*/
+.element,.pic h5{
+
+	color: black;
+	font-size: 2.5rem;
+	text-transform: uppercase;
+}
+/* right side image*/
+img.pic{
+	width:754px;
+	height: 354px;
+}
+/* contact us*/
+ul {
+	list-style: none;
+}
+/*footer */
+#end{
+	background-color: grey!important;
+	
+	height: 300px;
+}
+
+.aboutMe ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+.aboutMe ul li{
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  border-radius: 50%;
+  background: green;
+  list-style: none;
+  line-height: 30px;
+ margin-top: 150px;
+  /*text-align: center;
+   align-items: flex-start;*/
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+.aboutMe ul li a:first-child{
+  color: white;
+}
+.aboutMe ul li a:last-child{
+  color: purple;
+}
+.aboutMe ul li a:hover{
+	color:orange;
+}
+/*scroll*/
+#scroll_1 i.fa,#scroll i.fa{
+	color: #42f474;
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.ima {
+  display: block;
+  width: 100%;
+  /*height: auto;*/
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: (0,0,0,0.9);
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+/*media query*/
+@media only screen and (max-width: 480px){
+	body,html{
+		font-size:16px;
+		background-color: rgba(0, 0, 0, 0.9);
+		color:white;
+	}
+.element,.pic h5{
+
+	color: orange;
+	font-size: 2rem;
+	 
+		}
+	h1{
+		font-size:  1.5rem;
+		color: purple;
+	}
+	.sub{
+		font-size:  1rem!important;
+		color: blue!important;
+	}
+	.btn{
+		color: red;
+		font-size: 1rem;
+		 background-color: #4CAF50;
+		 /*padding: 0 5% 0 5%;*/
+		 width:30%;
+		 padding-left: 0 0.1% 0 0.1%;
+		 margin: 0.5%;
+		 display:inline-block;
+
+	}
+	.btn:nth-child(1),.btn:nth-child(2),.btn:nth-child(4){
+		padding: 3px;
+		margin:0 5px 0 3px; 
+		color: purple;
+		width:20%;
+	}
+	.btn:hover{
+		background-color: rgba(255,255,255,0.8);
+
+	}
+}
+@media only screen and (min-width: 481px) and (max-width: 768px){
+	body,html{
+		font-size:18px;
+		background-color: orange;
+	}
+.element,.pic h5{
+
+	color: blue;
+	font-size: 2rem;
+	
+}
+h1{
+		font-size:  1.5rem;
+		color: black;
+	}
+	.sub{
+		font-size:  1rem!important;
+		color: purple!important;
+	}
+}
+
+
