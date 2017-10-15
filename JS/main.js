@@ -15,7 +15,7 @@ var typed3 = new Typed('.element', {
     strings: ['Hi I am: <i style="color:maroon">web developer</i>', 'I love to: <strong style="color:maroon">make website</strong>', 'Welcome to my <i style="color:maroon">portfolio</i>'],
     typeSpeed: 0,
     backSpeed: 0,
-    smartBackspace: true, // this is a default
+    // smartBackspace: false, // this is a default
     loop: true
   });
 var typed4 = new Typed('.element_1', {
