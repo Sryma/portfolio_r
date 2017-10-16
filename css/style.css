@@ -33,9 +33,9 @@ a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
 	
 	background:url(../image/img_1.jpg) center center no-repeat;
 	background-size: cover;
-	height: 600px;
 	position: relative;
 	top:0;
+	height: 100%;
 }
 .overlay{
 	background: rgba(0,0,0,0.5);
@@ -47,9 +47,13 @@ a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
 }
 #wraper{
 	position: relative;
+	margin-top: 5.5%;
+	border:1px solid green;
+	height: 500px;
 }
 .element{
-	padding-top: 220px;
+	display: inline-block;
+	margin-top: 100px;
 	/*position: relative;
 	top:30%;
 	left:10%;
