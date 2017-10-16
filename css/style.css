@@ -52,7 +52,8 @@ a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
 	height: 500px;
 }
 .element{
-	display: inline-block;
+	display: inline-
+	block;
 	margin-top: 100px;
 	/*position: relative;
 	top:30%;
@@ -92,6 +93,7 @@ a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
 	padding:5% 0 5% 0;
 	/*background-color: pink;*/
 }
+
 #slick{
 	background-color: #e6e6e6;
 }
@@ -102,10 +104,9 @@ a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
 	margin-top:3.5%;
 	}
 .certify{
-	border:2px solid blue;
-	border-radius: 5px;
+	/*border:2px solid blue;*/
+	/*border-radius: 5px;*/
 	padding-top: 2%;
-	
 	margin: 0 auto;
 }
 .cer-content img{
@@ -124,7 +125,7 @@ a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
 	padding-top: 200px;
 }
 .thumbnail.pic{
-	width: 400px;
+	width: 350px;
 	height: auto;
 	position: relative;
 }
@@ -154,9 +155,9 @@ ul.text li{
 	text-transform: uppercase;
 }
 /* right side image*/
-img.pic{
-	width:754px;
-	height: 354px;
+img.car{
+	width:250px;
+	height: 250px;
 }
 /*certification*/
 .featured-area{
@@ -191,7 +192,7 @@ ul {
 }
 /*footer */
 #end{
-	background-color: rgba(203, 91, 66,0.8);
+	background-color: #4d4d4d;
 	
 	height: 300px;
 }
@@ -207,7 +208,7 @@ ul {
 .aboutMe ul li{
   box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
   border-radius: 50%;
-  background: green;
+  background: white;
   list-style: none;
   line-height: 30px;
  margin-top: 150px;
@@ -217,19 +218,18 @@ ul {
   height: 30px;
   margin-right: 20px;
 }
-.aboutMe ul li a:first-child{
+/*.aboutMe ul li a:first-child{
   color: white;
 }
 .aboutMe ul li a:last-child{
   color: purple;
-}
-.aboutMe ul li a:hover{
-	color:orange;
+}*/
+.aboutMe ul li:hover{
+	background: orange;
 }
 /*scroll*/
 #scroll_1 i.fa,#scroll i.fa{
-	color: #42f474;
-}
+	color: rgb(244, 66, 66)}
 .container {
   position: relative;
   width: 50%;
@@ -274,7 +274,7 @@ ul {
 	body,html{
 		font-size:16px;
 		background-color: rgba(0, 0, 0, 0.9);
-		color:white;
+		
 	}
 .element,.pic h5{
 
@@ -315,8 +315,9 @@ ul {
 @media only screen and (min-width: 481px) and (max-width: 768px){
 	body,html{
 		font-size:18px;
-		background-color: orange;
+		background-color: rgb(66, 134, 244);
 	}
+	
 .element,.pic h5{
 
 	color: blue;
@@ -331,6 +332,10 @@ h1{
 		font-size:  1rem!important;
 		color: purple!important;
 	}
+	.thumbnail.pic{
+	width: 275px;
+	
+}
 }
 
 
