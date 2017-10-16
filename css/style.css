@@ -148,7 +148,7 @@ ul.text li {
 	margin-top: 1.5%;
 	color:purple!important;
 	font-size: 1.4rem!important;
-	text-transform: lowercase!important;
+	
 }
 .text i.fa{
 	color: white;
@@ -156,7 +156,7 @@ ul.text li {
 
 
 /*end of portfolio*/
-.element,.pic h5{
+.element{
 
 	color: black;
 	font-size: 2.5rem;
