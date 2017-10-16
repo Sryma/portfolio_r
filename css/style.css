@@ -88,11 +88,11 @@ a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
 	padding:5% 0 5% 0;
 	/*background-color: pink;*/
 }
-#document,#slick{
+#slick{
 	background-color: #e6e6e6;
 }
 #port{
-	background-color:rgba(229, 99, 71, 0.8 )  ;
+	background-color:rgba(74, 79, 89,0.8)  ;
 }
 .portfolio,.certify{
 	margin-top:3.5%;
@@ -153,6 +153,33 @@ ul.text li{
 img.pic{
 	width:754px;
 	height: 354px;
+}
+/*certification*/
+.featured-area{
+	background: transparent;
+	
+}
+/*works for parallex js*/
+.parallax-window {
+	min-height: 400px;
+	max-width: 100%;
+	background: transparent;
+	
+}
+/*2nd try*/
+.parallax-target{
+    min-height: 400px;
+    background: transparent;
+    
+}
+/*back*/
+.back{
+	background: url(../image/img_9.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.middle{
+    min-height: 400px;
 }
 /* contact us*/
 ul {
