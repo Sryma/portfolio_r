@@ -176,6 +176,11 @@ left: 400px;
 ul {
 	list-style: none;
 }
+i.profile {
+	color: rgba(203, 87, 66,0.9);
+	line-height: 2rem;
+	font-weight: 700;
+}
 /*footer */
 #end{
 	background-color: #4d4d4d;
