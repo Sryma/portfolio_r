@@ -39,14 +39,7 @@ a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
 	top:0;
 	height: 100%;
 }
-.overlay{
-	background: rgba(0,0,0,0.5);
-	position: absolute;
-	top:0;
-	left:0;
-	right:0;
-	bottom:0;
-}
+
 #wraper{
 	position: relative;
 	margin-top: 5.1%;
@@ -89,9 +82,7 @@ a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
 	color: yellow;
 }
 
-/*.aboutMe ul li a:visited{
-	color:maroon;
-}*/
+
 /*start of portfolio*/
 
 .folder{
@@ -110,14 +101,14 @@ a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
 	margin-top:3.5%;
 	}
 .certify{
-	/*border:2px solid blue;*/
-	/*border-radius: 5px;*/
+	
 	padding-top: 2%;
 	margin: 0 auto;
 }
 .cer-content img{
   opacity: 0.9;
-  /*width: 100%;*/
+  width: 100%;
+  height: 500px;
   transition: .5s transform,
               .5s opacity;
 }
@@ -131,7 +122,7 @@ a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
 	padding-top: 200px;
 }
 .thumbnail.pic{
-	width: 350px;
+	width: 400px;
 	height: auto;
 	position: relative;
 }
@@ -145,7 +136,7 @@ ul.text li {
 }
 
 .sub{
-	margin-top: 1.5%;
+	margin-top: 2%;
 	color:purple!important;
 	font-size: 1.4rem!important;
 	
@@ -167,50 +158,29 @@ img.car{
 	width:250px;
 	height: 250px;
 }
-/*certification*/
-.featured-area{
-	background: transparent;
-	
-}
-/*works for parallex js*/
-.parallax-window {
-	min-height: 400px;
-	background: transparent;
-	position: relative;
 
-}
-/*2nd try*/
-.parallax-target{
-    min-height: 400px;
-    background: transparent;
-    
-}
 .contact{
 background: transparent;
 position:absolute; 
 top: 400px; 
 left: 400px;
 }
-/*back*/
-.back{
-	background: url(../image/img_9.jpg) center center no-repeat;
+/* contact us*/
+/
+#success{
+	
+	background: url(../image/img_6.jpg) center center no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	height: 100vh;
-	
-}
-.middle{
-    min-height: 400px;
-}
-/* contact us*/
+	}
 ul {
 	list-style: none;
 }
 /*footer */
 #end{
 	background-color: #4d4d4d;
-	
 	height: 300px;
+	margin-top: 0;
 }
 
 .aboutMe ul{
@@ -234,12 +204,7 @@ ul {
   height: 30px;
   margin-right: 20px;
 }
-/*.aboutMe ul li a:first-child{
-  color: white;
-}
-.aboutMe ul li a:last-child{
-  color: purple;
-}*/
+
 .aboutMe ul li:hover{
 	background: orange;
 }
@@ -247,22 +212,24 @@ ul {
 #scroll_1 i.fa,#scroll i.fa{
 	color: rgb(244, 66, 66)}
 .container {
-  position: relative;
-  width: 50%;
+  
+  background-color: white;
+  padding:2%;
 }
 
 .ima {
   display: block;
   width: 100%;
-  /*height: auto;*/
+  
 }
 
 .overlay {
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  right: 0;
-  background-color: (0,0,0,0.9);
+  background: rgba(0,0,0,0.5);
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
   text-align: center;
   overflow: hidden;
   width: 100%;
@@ -293,6 +260,10 @@ ul {
 		background-color: rgba(0, 0, 0, 0.9);
 		
 	}
+	.thumbnail.pic,.cer-content{
+	width: 100%;
+}
+
 .element,.pic h5{
 
 	color: orange;
@@ -349,9 +320,8 @@ h1{
 		font-size:  1rem!important;
 		color: purple!important;
 	}
-	.thumbnail.pic{
-	width: 275px;
-	
+	.thumbnail.pic,.cer-content{
+	width: 100%;
 }
 }
 
