@@ -11,22 +11,18 @@ body,html{
 }
 /*header*/
 .navbar{
-	background-color: #4d4d4d!important;
+	border-bottom: 3px solid rgb(66, 244, 119);
+}
 
-	/*padding-bottom: 40px;*/
-}
-a.col{
-	color: white!important;
-}
 a.col:hover{
 	text-decoration: underline;
 	color: blue;
-	background-color: orange;
+	background-color: rgb(219, 76, 188);
 }
 a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
 	
-	color: red/*!important*/;
-	background-color: green/*!important*/;
+	color: red!important;
+	background-color: rgb(174, 247, 163)!important;
 }
 /* jumbtron*/
 .picture{
@@ -50,11 +46,7 @@ a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
 	display: inline-
 	block;
 	margin-top: 100px;
-	/*position: relative;
-	top:30%;
-	left:10%;
-	right:0;
-	bottom: 0;*/
+	
 }
 #scroll_1{
 	position: absolute;
@@ -67,6 +59,9 @@ a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
 	margin-left: 10%;
 }
 /*who am I*/
+#slick{
+	background-color: #e6e6e6;
+}
 .btn:hover{
 	text-decoration: underline;
 	color: blue;
@@ -91,11 +86,9 @@ a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
 	/*background-color: pink;*/
 }
 
-#slick{
-	background-color: #e6e6e6;
-}
+
 #port{
-	background-color:rgba(74, 79, 89,0.8)  ;
+	background-color:rgb(204, 201, 193);
 }
 .portfolio,.certify,.credit{
 	margin-top:3.5%;
@@ -190,9 +183,9 @@ i.profile {
 }
 /*footer */
 #end{
-	background-color: #4d4d4d;
+	background-color: rgb(174, 247, 163);
 	height: 300px;
-	margin-top: 0;
+	
 }
 
 .aboutMe ul{
@@ -222,7 +215,8 @@ i.profile {
 }
 /*scroll*/
 #scroll_1 i.fa,#scroll i.fa{
-	color: rgb(244, 66, 66)}
+	color: rgb(66, 244, 119);
+}
 .container {
   
   background-color: white;
