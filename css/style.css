@@ -226,7 +226,7 @@ i.profile {
 .ima {
   display: block;
   width: 100%;
-  
+  height: auto;
 }
 
 .overlay {
@@ -255,9 +255,10 @@ i.profile {
   position: absolute;
   overflow: hidden;
   top: 50%;
-  left: 50%;
+  left: 45%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+  
 }
 /*media query*/
 @media only screen and (max-width: 480px){
