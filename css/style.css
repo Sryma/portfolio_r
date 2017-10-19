@@ -43,11 +43,13 @@ a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
 	height: 500px;
 }
 .element{
+	font-size: 2.5rem;
+	text-transform: uppercase;
 	display: inline-
 	block;
-	margin-top: 100px;
-	
+	padding-top: 8%;
 }
+
 #scroll_1{
 	position: absolute;
 	top:70%;
@@ -128,12 +130,7 @@ ul.text li {
 
 
 /*end of portfolio*/
-.element{
 
-	color: black;
-	font-size: 2.5rem;
-	text-transform: uppercase;
-}
 /* right side image*/
 img.car{
 	width:250px;
@@ -251,10 +248,10 @@ i.profile {
 .text {
   white-space: nowrap; 
   color: white;
-  font-size: 20px;
+  font-size: 1.2rem;
   position: absolute;
   overflow: hidden;
-  top: 50%;
+  top: 40%;
   left: 45%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -264,34 +261,35 @@ i.profile {
 @media only screen and (max-width: 480px){
 	body,html{
 		font-size:16px;
-		background-color: rgba(0, 0, 0, 0.9);
+		background-color: rgb(167, 214, 188);
 		
+	}
+	#wraper{
+		margin-top: 5%;
 	}
 	.thumbnail.pic,.cer-content{
 	width: 100%;
 }
 
-.element,.pic h5{
+.element{
 
-	color: orange;
+	padding-top: 50%
 	font-size: 2rem;
-	 
-		}
+	 }
 	h1{
 		font-size:  1.5rem;
-		color: purple;
+		color: rgb(177, 9, 196);
 	}
 	.sub{
-		font-size:  1rem!important;
-		color: blue!important;
+		font-size:  1.2rem!important;
+		color:rgb(6, 224, 86) !important;
 	}
 	.btn{
 		color: red;
 		font-size: 1rem;
 		 background-color: #4CAF50;
-		 /*padding: 0 5% 0 5%;*/
 		 width:30%;
-		 padding-left: 0 0.1% 0 0.1%;
+		 padding: 0 0.1% 0 0.1%;
 		 margin: 0.5%;
 		 display:inline-block;
 
@@ -306,6 +304,10 @@ i.profile {
 		background-color: rgba(255,255,255,0.8);
 
 	}
+
+.text {
+	font-size: 1.2rem;
+}
 }
 @media only screen and (min-width: 481px) and (max-width: 768px){
 	body,html{
@@ -313,9 +315,8 @@ i.profile {
 		background-color: rgb(66, 134, 244);
 	}
 	
-.element,.pic h5{
-
-	color: blue;
+.element{
+	color: rgb(9, 109, 196);
 	font-size: 2rem;
 	
 }
