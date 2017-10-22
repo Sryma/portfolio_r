@@ -27,10 +27,9 @@ a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
 /* jumbtron*/
 .picture{
 	
-	background:url(../image/img_1.jpg) center center no-repeat;
+	background:url(../image/img_1_start.jpg) center center no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-
 	position: relative;
 	top:0;
 	height: 100%;
