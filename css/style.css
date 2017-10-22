@@ -1,13 +1,11 @@
 *{
 	box-sizing: border-box;
-	text-align: center;
-}
+	}
 body,html{
 	font-size: 18px;
 	margin: 0;
 	padding: 0;
 	font-family: "helvatica";
-
 }
 /*header*/
 .navbar{
@@ -119,8 +117,9 @@ ul.text li {
 
 .sub{
 	margin-top: 2%;
-	color:purple!important;
+	color:rgb(219, 46, 213);
 	font-size: 1.4rem!important;
+	text-align: center;
 	
 }
 .text i.fa{
