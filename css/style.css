@@ -24,7 +24,6 @@ a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
 }
 /* jumbtron*/
 .picture{
-	
 	background:url(../image/img_1_start.jpg) center center no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -70,22 +69,16 @@ a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
 	background: url(../image/image_1.jpg) center center no-repeat;
 	background-size: cover;
 	height: 600px;
-
 }
 .photo h1{
 	color: yellow;
 }
 
-
 /*start of portfolio*/
 
 .folder{
-	/*background-color: #e6e6e6;*/
 	padding:5% 0 5% 0;
-	/*background-color: pink;*/
 }
-
-
 #port{
 	background-color:rgb(204, 201, 193);
 }
@@ -102,7 +95,7 @@ a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
 	padding-top: 200px;
 }
 .thumbnail.pic{
-	width: 400px;
+	width: 100%;
 	height: auto;
 	position: relative;
 }
