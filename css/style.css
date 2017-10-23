@@ -250,7 +250,9 @@ i.profile {
 	}
 	#wraper{
 		margin-top: 5%;
-		height:25rem;
+	}
+	.jumbotron{
+		width: 100%;
 	}
 	.thumbnail.pic,.cer-content{
 	width: 100%;
@@ -304,10 +306,10 @@ i.profile {
 	color: rgb(9, 109, 196);
 	font-size: 2rem;
 }
-#wraper{
-		margin-top: 5%;
-		height:25rem;
-	}
+.jumbotron{
+	width:100%;
+}
+
 h1{
 		font-size:  1.5rem;
 		color: black;
