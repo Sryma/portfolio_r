@@ -35,7 +35,6 @@ a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
 #wraper{
 	position: relative;
 	margin-top: 5.1%;
-	/*border:1px solid green;*/
 	height: 500px;
 }
 .element{
@@ -118,7 +117,6 @@ ul.text li {
 	color: white;
 }
 
-
 /*end of portfolio*/
 
 /* right side image*/
@@ -142,7 +140,7 @@ left: 400px;
 .cer-content img{
   opacity: 0.9;
   width: 100%;
-  height: auto;
+  height: 520px;
   transition: .5s transform,
               .5s opacity;
 }
@@ -151,11 +149,8 @@ left: 400px;
   opacity: 1;
   transform: scale(0.99);
 }
-
 /* contact us*/
-
 #success{
-	
 	background: url(../image/img_contact.jpg) center center no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -172,9 +167,7 @@ i.profile {
 #end{
 	background-color: rgb(174, 247, 163);
 	height: 300px;
-	
 }
-
 .aboutMe ul{
   margin: 0;
   padding: 0;
