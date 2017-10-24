@@ -138,12 +138,12 @@ left:21rem;
 
 .cer-content{
 	background-color:rgb(238, 219, 224);
-	padding:2%;
+	padding:3%;
 }
 .cer-content img{
   opacity: 0.9;
   width: 100%;
-  height: 28rem;
+  height: 25rem;
   transition: .5s transform,
               .5s opacity;
 }
