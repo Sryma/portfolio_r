@@ -57,6 +57,9 @@ a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
 /*section 2 who am I*/
 .left_slick p{
 	text-align: justify;
+	line-height: 1.5rem;
+	margin:0 auto;
+
 	}
 /*who am I*/
 #slick{
@@ -70,7 +73,7 @@ a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
 .photo{
 	background: url(../image/image_1.jpg) center center no-repeat;
 	background-size: cover;
-	height: 600px;
+	height: 50rem;
 }
 .photo h1{
 	color: yellow;
@@ -89,14 +92,11 @@ a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
 	margin-top:3.5%;
 	}
 .certify{
-	
 	padding-top: 2%;
 	margin: 0 auto;
 }
 
-.portfolio h1{
-	padding-top: 200px;
-}
+
 .thumbnail.pic{
 	width: 100%;
 	height: auto;
@@ -131,8 +131,8 @@ img.car{
 .contact{
 background: transparent;
 position:absolute; 
-top: 400px; 
-left: 400px;
+top: 21rem; 
+left:21rem;
 }
 /* certification*/
 
@@ -143,7 +143,7 @@ left: 400px;
 .cer-content img{
   opacity: 0.9;
   width: 100%;
-  height: 520px;
+  height: 28rem;
   transition: .5s transform,
               .5s opacity;
 }
@@ -184,11 +184,11 @@ i.profile {
   border-radius: 50%;
   background: white;
   list-style: none;
-  line-height: 30px;
- margin-top: 150px;
-  width: 30px;
-  height: 30px;
-  margin-right: 20px;
+  line-height: 1.5rem;
+ margin-top: 8rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 1.2rem;
 }
 .aboutMe p{
 	margin-top: 1.5%;
@@ -256,7 +256,9 @@ i.profile {
 	.thumbnail.pic,.cer-content{
 	width: 100%;
 }
-
+.left_slick p{
+	line-height: 1.5rem;
+		}
 .element{
 
 	padding-top: 50%
@@ -308,7 +310,9 @@ i.profile {
 .jumbotron{
 	width:100%;
 }
-
+.left_slick p{
+	line-height: 1.5rem;
+	}
 h1{
 		font-size:  1.5rem;
 		color: black;
