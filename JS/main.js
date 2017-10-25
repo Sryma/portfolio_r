@@ -18,8 +18,6 @@ var typed4 = new Typed('.element_1', {
     loop: true
   });
     
-
-
   $('.carousel').slick({
     
     autoplay: true,
