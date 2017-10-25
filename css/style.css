@@ -59,7 +59,7 @@ a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
 	line-height: 1.5rem;
 	margin:0 auto;
 	display:block;
-
+	padding-left: 2rem;
 	}
 /*who am I*/
 #slick{
