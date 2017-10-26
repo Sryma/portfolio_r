@@ -30,7 +30,7 @@ a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
 	position: relative;
 	top:0;
 	/*width:100%;*/
-	height: 100%;
+	height: 100vh;
 }
 
 #wraper{
@@ -256,6 +256,8 @@ i.profile {
 		}
 	.jumbotron{
 		width: 100%;
+		height:25rem;
+		margin:0 auto;
 	}
 	#scroll_1{
 		top:50%;
