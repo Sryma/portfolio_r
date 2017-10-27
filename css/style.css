@@ -66,14 +66,7 @@ a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
 	background-color: #e6e6e6;
 }
 
-/*.photo{
-	background: url(../image/image_1.jpg) center center no-repeat;
-	background-size: cover;
-	height: 50rem;
-}
-.photo h1{
-	color: yellow;
-}*/
+
 #hire{
 	text-align: center;
 }
@@ -250,27 +243,25 @@ i.profile {
 	
 	#wraper{
 		height: 20rem;
-			}
-	.element{
-		padding-top: 20%;
+		padding-top: 10%;
+		
 		}
+	.element{
+	font-size: 1.8rem!important;
+		 }
 	.jumbotron{
 		width: 100%;
 		margin:0 auto;
 	}
 	#scroll_1{
-		top:50%;
+		top:60%;
 		left:40%;
 	}
 	.thumbnail.pic,.cer-content{
 	width: 100%;
 }
 
-.element{
 
-	padding-top: 50%
-	font-size: 2rem;
-	 }
 	 .left_slick p{
 	 	width:100%;
 	 	 text-align: justify;
