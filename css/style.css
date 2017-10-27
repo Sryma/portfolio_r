@@ -26,17 +26,17 @@ a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
 .jumbotron{
 	background:url(../image/img_1_start.jpg) center center no-repeat;
 	background-size: cover;
-	background-attachment: fixed;
+	/*background-attachment: fixed;*/
 	position: relative;
 	top:0;
 	/*width:100%;*/
-	height: 100vh;
+	height: 100%;
 }
 
 #wraper{
 	position: relative;
-	margin-top: 5.1%;
-	height: 40rem;
+	margin-top:5%;
+	height: 30rem;
 }
 .element{
 	font-size: 2.5rem;
@@ -48,8 +48,8 @@ a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
 
 #scroll_1{
 	position: absolute;
-	top:70%;
-	left:50%;
+	top:50%;
+	left:45%;
 }
 /*section 2 who am I*/
 .left_slick p{
@@ -65,15 +65,11 @@ a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
 #slick{
 	background-color: #e6e6e6;
 }
-.btn:hover{
-	text-decoration: underline;
-	color: blue;
-	background-color: orange;
-}
+
 .photo{
 	background: url(../image/image_1.jpg) center center no-repeat;
 	background-size: cover;
-	height: 50rem;
+	/*height: 50rem;*/
 }
 .photo h1{
 	color: yellow;
@@ -82,6 +78,11 @@ a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
 	text-align: center;
 }
 /*start of portfolio*/
+.btn:hover{
+	text-decoration: underline;
+	color: blue;
+	background-color: orange;
+}
 .folder{
 	padding:5% 0 5% 0;
 }
@@ -248,15 +249,13 @@ i.profile {
 		}
 	
 	#wraper{
-		height: 25rem;
-		margin-top: 10%;
-	}
+		height: 20rem;
+			}
 	.element{
 		padding-top: 20%;
 		}
 	.jumbotron{
 		width: 100%;
-		height:25rem;
 		margin:0 auto;
 	}
 	#scroll_1{
@@ -322,9 +321,11 @@ i.profile {
 	padding-top: 20%;
 
 }
+#wraper{
+		height: 25rem;
+			}
 .jumbotron{
 	width:100%;
-	height:30rem;
 	margin-top: 10%;
 }
 .left_slick p{
