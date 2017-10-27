@@ -66,14 +66,14 @@ a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
 	background-color: #e6e6e6;
 }
 
-.photo{
+/*.photo{
 	background: url(../image/image_1.jpg) center center no-repeat;
 	background-size: cover;
-	/*height: 50rem;*/
+	height: 50rem;
 }
 .photo h1{
 	color: yellow;
-}
+}*/
 #hire{
 	text-align: center;
 }
